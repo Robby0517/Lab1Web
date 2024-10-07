@@ -1,0 +1,26 @@
+# Lab1Web
+Jawab Pertanyaan Berikut
+1. Lakukan perubahan pada kode sesuai dengan keinginan anda, amati perubahannya adakah error ketika terjadi kesalahan penulisan tag?
+2. Apa perbedaan dari tag <p> dengan tag <br>, berikan penjelasannya!
+3. Apa perbedaan atribut title dan alt pada tag <img>, berikan penjelasannya!
+4. Untuk mengatur ukuran gambar, digunakan atribut width dan height. Agar tampilan gambar 
+proporsional sebaiknya kedua atribut tersebut diisi semua atau tidak? Berikan penjelasannya!
+5. Pada link tambahkan atribut target dengan nilai atribut bervariasi ( _blank, _self, _top, 
+_parent ), apa yang terjadi pada masing-masing nilai antribut tersebut?
+Jawaban
+Jika terjadi kesalahan penulisan tag HTML (misalnya, tag tidak ditutup, atau penggunaan tag yang tidak valid), browser biasanya tetap akan mencoba merender halaman semampunya. Namun, beberapa kesalahan penulisan tag bisa menyebabkan halaman terlihat tidak sesuai harapan. Error yang umum terjadi meliputi tata letak yang kacau, elemen yang hilang, atau fungsi yang tidak bekerja. HTML bersifat toleran terhadap kesalahan, jadi biasanya tidak muncul pesan error secara langsung. Namun, alat pengembang seperti DevTools di browser bisa memberikan peringatan atau error jika ditemukan masalah di dalam kode.
+<p> (paragraph) adalah tag HTML yang digunakan untuk mendefinisikan sebuah paragraf. Tag ini memberikan jarak vertikal antara blok teks yang berbeda. Setiap kali tag <p> digunakan, browser akan menampilkan teks di dalamnya sebagai blok baru dengan margin di atas dan bawah.
+<br> (line break) adalah tag yang digunakan untuk memindahkan teks ke baris berikutnya tanpa menambahkan jarak vertikal tambahan seperti <p>. Ini berguna jika Anda hanya ingin memulai baris baru tanpa memulai paragraf baru.
+<p>Ini adalah sebuah paragraf pertama.</p>
+<p>Ini adalah sebuah paragraf kedua.</p>
+Ini adalah baris pertama.<br>
+Ini adalah baris kedua setelah <br>.
+
+
+alt (alternative text) adalah teks alternatif yang ditampilkan jika gambar tidak bisa dimuat atau dilihat. Atribut ini juga digunakan oleh pembaca layar untuk membantu penyandang disabilitas memahami konten gambar.
+title memberikan tooltip atau informasi tambahan saat pengguna menggerakkan kursor di atas gambar. Teks dalam atribut title tidak muncul jika gambar gagal dimuat, tetapi hanya sebagai informasi tambahan.
+Sebaiknya tidak mengisi kedua atribut width dan height secara bersamaan dengan nilai spesifik kecuali Anda ingin mengubah aspek rasio (proporsi gambar). Untuk menjaga gambar tetap proporsional, cukup tetapkan salah satu dari atribut tersebut (misalnya hanya width), dan biarkan browser secara otomatis mengatur atribut lainnya agar aspek rasio gambar tetap terjaga. Jika kedua atribut diisi tetapi tidak sesuai dengan rasio asli gambar, gambar bisa terlihat terdistorsi (terlihat terlalu lebar atau terlalu tinggi).
+_blank: Membuka link di tab atau jendela baru. Ini berguna saat Anda ingin pengguna tetap di halaman saat ini dan membuka tautan di halaman lain.
+_self: Membuka link di tab atau jendela yang sama, menggantikan halaman saat ini. Ini adalah default dari atribut target.
+_top: Membuka link di halaman utama yang paling atas (membatalkan semua frame atau iframe yang mungkin ada). Ini akan memastikan tautan memuat halaman baru di jendela penuh.
+_parent: Membuka link di frame induk jika Anda berada di dalam iframe atau frame. Jika tidak ada frame, maka sama dengan _self.
