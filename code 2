@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+    <!--ini nav-->
+    <nav>
+        <a href="https://www.instagram.com/robby_jlni">Official Instragram Account</a> </nav>
+    <hr>
+    <!--judul paragraf pertama-->
+    <h1>my profile</h1>
+    <!--Ini paragraf pertama-->
+    <p align="justify">saya adalah seorang bajak laut dan pemberani</p>
+    <!--nambahin gambar pada dock-->
+    <img src="images/logo ig.png" width="200" title="logo upb">
+    <p>Instagram Saya</p>
+</body>
+</html>
