@@ -1,0 +1,37 @@
+Berikut adalah penjelasan singkat mengenai kode HTML yang Anda berikan:
+
+Deklarasi HTML:
+
+<!DOCTYPE html>: Menyatakan bahwa dokumen ini menggunakan HTML5.
+<html lang="en">:
+
+Elemen <html> adalah elemen root dari dokumen, dengan atribut lang="en" menunjukkan bahwa bahasa yang digunakan adalah bahasa Inggris.
+<head> dan <meta>:
+
+Bagian <head> berisi metadata seperti encoding karakter (UTF-8) dan pengaturan tampilan yang responsif di perangkat mobile (<meta name="viewport" content="width=device-width, initial-scale=1.0">).
+Tag <title> menetapkan judul halaman sebagai "Tag Html Dasar".
+<nav>:
+
+Elemen ini berisi navigasi dengan tiga tautan:
+Tautan pertama menuju halaman internal: "Dasar HTML".
+Tautan kedua menuju halaman internal lain: "Halaman 2".
+Tautan ketiga menuju situs web eksternal: Google dengan teks "Halaman Web Eksternal Gugel".
+<hr>:
+
+Menampilkan garis horizontal sebagai pemisah konten.
+Judul dan Paragraf:
+
+<h1> digunakan sebagai judul utama "Belajar Dasar HTML".
+Paragraf pertama menjelaskan bahwa penulis sedang belajar dasar HTML di matakuliah "Pemrograman Web" pada Program Studi Teknik Informatika di Universitas Pelita Bangsa. Dalam paragraf ini:
+Tag <mark> menyoroti teks "HTML dasar".
+Tag <strong> digunakan untuk menebalkan teks "Pemrograman Web".
+Tag <i> dan <u> digunakan untuk memiringkan dan menggarisbawahi teks "Teknik Informatika" dan "Univesitas Pelita Bangsa".
+Subjudul dan Paragraf Kedua:
+
+<h2> adalah subjudul kedua "Paragraf Pada HTML".
+Paragraf kedua memberikan penjelasan tentang konsep paragraf dalam HTML, yang terdiri dari kalimat-kalimat yang membentuk kesatuan makna.
+Subjudul Ketiga dan Gambar:
+
+<h3> adalah subjudul ketiga "Ini logo".
+Elemen <img> digunakan untuk menampilkan gambar "logo upb.png" dari folder images/ dengan lebar 200 piksel dan atribut title yang memberikan deskripsi gambar berupa "logo upb" saat kursor diarahkan ke gambar.
+Secara keseluruhan, dokumen ini menampilkan halaman sederhana yang menjelaskan tag-tag dasar HTML, seperti paragraf, judul, gambar, dan navigasi ke halaman lain.
