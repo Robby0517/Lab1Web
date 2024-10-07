@@ -1,0 +1,35 @@
+Berikut adalah penjelasan singkat mengenai kode HTML yang Anda berikan:
+
+Deklarasi HTML:
+
+<!DOCTYPE html>: Menyatakan bahwa dokumen ini adalah dokumen HTML5.
+<html lang="en">:
+
+Elemen <html> menentukan awal dari dokumen HTML dan lang="en" menandakan bahwa bahasa yang digunakan adalah bahasa Inggris.
+<head> dan <meta>:
+
+Bagian <head> mencakup metadata seperti encoding karakter (UTF-8) dan mengatur tampilan yang responsif di perangkat mobile (<meta name="viewport" content="width=device-width, initial-scale=1.0">).
+Tag <title> menetapkan judul dokumen sebagai "Profile".
+<nav>:
+
+Ini adalah elemen navigasi yang berisi tautan menuju halaman Instagram resmi dengan teks "Official Instagram Account".
+<hr>:
+
+Elemen ini digunakan untuk menambahkan garis horizontal pemisah di halaman.
+Judul dan Paragraf:
+
+<h1> menandakan judul "my profile".
+Paragraf pertama <p align="justify"> berisi teks yang diatur rata kanan-kiri dengan konten "saya adalah seorang bajak laut dan pemberani".
+Gambar:
+
+Elemen <img> digunakan untuk menampilkan gambar "logo ig.png" dari folder images/ dengan lebar 200 piksel. Atribut title memberikan teks alternatif "logo upb" yang akan muncul saat gambar ditunjukkan.
+Paragraf tambahan:
+
+Paragraf di bawah gambar berisi teks "Instagram Saya" sebagai keterangan tambahan tentang gambar.
+Secara keseluruhan, halaman ini menampilkan profil dengan navigasi ke akun Instagram, gambar logo, dan sedikit teks deskripsi pribadi.
+
+
+
+
+
+
